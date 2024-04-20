@@ -1,0 +1,42 @@
+.each-appointment{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #fff;
+  align-items: flex-start;
+  justify-content: space-around;
+  border: 1px solid gray;
+  width: 30%;
+  margin:0px 10px 10px 0px ;
+  flex-grow: 1;
+}
+.each-appointment__name-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.star-img{
+  width: 25px;
+  height: 25px;
+}
+.name{
+  font-size: 30px;
+  font-weight: 500;
+}
+.date-for-Item{
+  font-style: 20px;
+}
+.star-btn{
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media screen and (max-width:576px){
+  .each-appointment{
+    width: 100%;
+  }
+}
